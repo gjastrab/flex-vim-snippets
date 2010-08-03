@@ -1,0 +1,3 @@
+= Flex Vim Snippets
+
+MXML and ActionScript snippets for VIM to be used with snipMate.vim

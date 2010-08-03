@@ -1,0 +1,34 @@
+# Flex 4 snippets ========
+# spark application header
+snippet sapp
+	<?xml version="1.0"?>
+	<s:Application xmlns:fx="http://ns.adobe.com/mxml/2009"
+								 xmlns:s="library://ns.adobe.com/flex/spark"
+								 xmlns:mx="library://ns.adobe.com/flex/mx">
+		<fx:Script>
+			<![CDATA[
+				${2}
+			]]>
+		</fx:Script>
+		${1}
+	</s:Application>
+# spark item renderer
+snippet sitem
+	<?xml version="1.0"?>
+	<s:ItemRenderer xmlns:fx="http://ns.adobe.com/mxml/2009"
+									xmlns:s="library://ns.adobe.com/flex/spark"
+									xmlns:mx="library://ns.adobe.com/flex/mx">
+		${1}
+	</s:ItemRenderer>
+# Flex 3 snippets ========
+# mxml application header
+snippet mxapp
+	<?xml version="1.0"?>
+	<mx:Application xmlns:mx="http://www.adobe.com/2006/mxml">
+		<mx:Script>
+			<![CDATA[
+				${2}
+			]]>
+		</mx:Script>
+		${1}
+	</mx:Application>
