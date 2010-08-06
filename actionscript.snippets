@@ -1,0 +1,25 @@
+# ActionScript snippets
+# package
+snippet package
+	package ${1}{
+
+		${2}
+
+	}
+# class
+snippet class
+	public class ${1} {
+
+		${2}
+
+	}
+# for (credit: c.snippets)
+snippet for
+	for(var ${2:i}:uint = 0; $2 < ${1:length}; $2${3:++}) {
+		${4}
+	}
+# function
+snippet fun
+	${1:public} function ${2}(${3}):${4:void} {
+		${5}
+	}
